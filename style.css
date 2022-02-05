@@ -1,0 +1,135 @@
+* {
+    font-family: "Sans-serif", "Monospace";
+}
+
+body {
+    background-color: #535455;
+    margin:0 auto;
+    padding: 0;
+}
+
+span {
+    color: rgb(0, 0, 0);
+}
+
+
+div.topnav a:hover, div.intro a:hover  {
+    color: rgb(183, 187, 129);
+}
+
+.topnav a {
+    float: left;
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: underline;
+    font-size: 15px;
+    color: rgb(175, 208, 247);
+}
+div.topnav {
+    background-color: rgb(31, 30, 30);
+    border-bottom: 1px solid rgb(196,134,132);
+    overflow: hidden;
+    margin-bottom: 5ch;
+    width: 100%;
+}
+div.image img{
+    height: 20%;
+    width: 20%;
+}
+  
+#banner .content h1 {
+    position: relative;
+    padding-top: 20%;
+    width: 600px;
+    margin: 0% auto;
+    color: rgb(174, 198, 207);
+    font-size: 80px;
+    font-weight: 600;
+    text-align: left;
+    
+}
+
+.quote h3 {
+    color: black;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 20px 6px;
+}
+
+
+div.container {
+    padding: 4% 0 2% 0;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.container #text {
+    padding-right: 30%;
+    width: 100%;
+    height: 100%;
+    flex-basis: 100%;
+}
+
+
+div.container img{
+    vertical-align: top;
+    padding-left: 45%;
+    flex-basis: auto;
+    height: 60%;
+    width: 40%;
+}
+
+
+div.resume, div.hobby {
+    display: table;
+    margin: 5% auto;
+}
+
+.portfolio h3 {
+    text-align: left;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 40%;
+    border: 2px solid rgb(174, 198, 207);
+  }
+  
+  
+  
+  th, td {
+    text-align: left;
+    padding: 10px;
+  }
+  
+  tr:nth-child(even),thead {
+    background-color: rgb(168, 115, 68);
+  }
+
+  div.hobby {
+      padding-left: 3%;
+  }
+
+  div.hobby ul{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      list-style-type: none;
+  }
+
+  div.hobby ul img {
+    height: 20em;
+    width: 20em;
+    object-fit: cover;
+  }
+
+  div.hobby p {
+      position: relative;
+      color: rgb(231, 188, 130);
+      text-align: center;
+  }
+
